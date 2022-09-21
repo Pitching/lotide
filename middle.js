@@ -24,4 +24,16 @@ const eqArrays = function(array1, array2) {
   }
 }
 
-assertArraysEqual([1, 3], [1, 2, 3]);
+const middle = function(midArray) {
+  if (midArray.length <= 2) {
+    return [];
+  } else if (midArray.length % 2 !== 0) {
+    const mid = Math.ceil(midArray.length/2 - 1);
+    return midArray[mid];
+  } else {
+    const midtwo = midArray.length/2;
+    return midArray.slice(midtwo - 1, midtwo + 1);
+  }
+}
+
+assertArraysEqual(middle([1, 2, 3]), middle([1, 2, 3]));
