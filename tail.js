@@ -5,7 +5,7 @@ const tail = function(last) {
     removeFirst[i - 1] = last[i];
   }
 
-  return console.log(removeFirst);
+  return removeFirst.length;
 };
 
 module.exports = tail;
