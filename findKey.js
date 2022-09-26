@@ -20,6 +20,8 @@ const findKey = function(object, callback) {
   return undefined;
 }
 
+module.exports = findKey;
+
 const testObject = {
   "First": { stars: 3 },
   "Second":   { stars: 6 },

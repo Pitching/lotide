@@ -9,3 +9,5 @@ const min = function(numbers) {
 
   return smallest;
 }
+
+module.exports = min;

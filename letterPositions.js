@@ -38,4 +38,6 @@ const eqArrays = function (array1, array2) {
   }
 }
 
+module.exports = letterPositions;
+
 console.log(letterPositions('lighthouse in the house'))

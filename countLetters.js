@@ -17,4 +17,6 @@ const countLetters = function(sentence) {
   return letters;
 }
 
+module.exports = countLetters;
+
 console.log(countLetters('LHL is a space no space'));
