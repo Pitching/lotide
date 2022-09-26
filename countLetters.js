@@ -1,11 +1,3 @@
-const assertEqual = function (actual, expected) {
-  if (actual === expected) {
-    console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
 const countLetters = function(sentence) {
   const lowerSentence = sentence.toLowerCase().split(' ').join('');
   let letters = {};
@@ -19,4 +11,4 @@ const countLetters = function(sentence) {
 
 module.exports = countLetters;
 
-console.log(countLetters('LHL is a space no space'));
+// console.log(countLetters('LHL is a space no space'));
